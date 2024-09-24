@@ -9,7 +9,7 @@ env:
   NEXT_PUBLIC_BASE_API_URL: ${{ secrets.NEXT_PUBLIC_BASE_API_URL }}
   PROJECT_ID: ${{ secrets.PROJECT_ID }}
   REGION:  ${{ secrets.REGION }}
-  REPO_NAME: Liora
+  REPO_NAME: liora
 
 jobs:
   build-and-deploy:
